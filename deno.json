@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "dev": "deno run --watch -A main.ts",
+    "build": "deno run -A ./build.ts"
+  },
+  "imports": {
+    "@webview/webview": "jsr:@webview/webview@^0.8.1"
+  }
+}
